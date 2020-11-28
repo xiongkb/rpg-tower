@@ -1,0 +1,50 @@
+{
+    "warrior": {
+        "exp": 0,
+        "level": 1,
+        "name": "Roirroaw",
+        "stats": {
+            "hp": 180,
+            "tp": 65,
+            "mp": 25
+        },
+        "skills": [
+            {
+                "name": "Heavenly Slash",
+                "dmg": 0
+            }
+        ]
+    },
+    "mage": {
+        "exp": 0,
+        "level": 1,
+        "name": "Egam",
+        "stats": {
+            "hp": 180,
+            "tp": 65,
+            "mp": 25
+        },
+        "skills": [
+            {
+                "name": "Arcana Blast",
+                "dmg": 0
+            }
+        ]
+    },
+    "archer": {
+        "exp": 0,
+        "level": 1,
+        "name": "Rehcra",
+        "stats": {
+            "hp": 180,
+            "tp": 65,
+            "mp": 25
+        },
+        "skills": [
+            {
+                "name": "Dragon Pierce",
+                "dmg": 0
+            }
+        ]
+    }
+}
