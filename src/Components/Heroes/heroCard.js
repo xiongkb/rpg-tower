@@ -2,9 +2,12 @@ import React from "react";
 import hero from "./heroesData";
 
 const HeroCard = () => {
+
+    
+
     return (
         <div>
-            <img alt="warrior with sword and shield"src={hero.warrior.img}></img>
+            <img alt={hero.warrior.alt} src={hero.warrior.img}></img>
             <div>Name</div>
             <div>Hp</div>
             <div>
