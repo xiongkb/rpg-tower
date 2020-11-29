@@ -2,7 +2,7 @@ import warriorImg from "../../Assets/img/heroes/warrior.png";
 import mageImg from "../../Assets/img/heroes/warrior.png";
 import archerImg from "../../Assets/img/heroes/warrior.png";
 
-let hero = {
+let heroData = {
     warrior: {
         img: warriorImg,
         alt: "Warrior with shield and sword",
@@ -27,9 +27,9 @@ let hero = {
         level: 1,
         name: "Egam",
         stats: {
-            hp: 180,
-            tp: 65,
-            mp: 25
+            hp: 90,
+            tp: 10,
+            mp: 80
         },
         skills: [
             {
@@ -44,9 +44,9 @@ let hero = {
         level: 1,
         name: "Rehcra",
         stats: {
-            hp: 180,
+            hp: 130,
             tp: 65,
-            mp: 25
+            mp: 45
         },
         skills: [
             {
@@ -57,4 +57,4 @@ let hero = {
     }
 }
 
-export default hero;
+export default heroData;

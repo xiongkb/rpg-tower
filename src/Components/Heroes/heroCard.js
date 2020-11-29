@@ -1,18 +1,19 @@
 import React from "react";
-import hero from "./heroesData";
 
-const HeroCard = () => {
+
+const HeroCard = (props) => {
 
     
-
     return (
         <div>
-            <img alt={hero.warrior.alt} src={hero.warrior.img}></img>
-            <div>Name</div>
-            <div>Hp</div>
+            <div className="level">{props.hero.level}</div>
+            <img alt={props.hero.alt} src={props.hero.img}></img>
+            <div className="hero-name">{props.hero.name}</div>
+            <div className="hero-health">{props.hero.stats.hp}</div>
+            <div className="hero-exp">{props.hero.exp}</div>
             <div>
-                <div>TP</div>
-                <div>MP</div>
+                <div className="hero-tp">{props.hero.stats.tp}</div>
+                <div className="hero-mp">{props.hero.stats.mp}</div>
             </div>
         </div>
     )
