@@ -1,5 +1,10 @@
-{
-    "warrior": {
+import warriorImg from "../../Assets/img/heroes/warrior.png";
+import mageImg from "../../Assets/img/heroes/warrior.png";
+import archerImg from "../../Assets/img/heroes/warrior.png";
+
+let hero = {
+    warrior: {
+        "img": warriorImg,
         "exp": 0,
         "level": 1,
         "name": "Roirroaw",
@@ -16,6 +21,7 @@
         ]
     },
     "mage": {
+        "img": mageImg,
         "exp": 0,
         "level": 1,
         "name": "Egam",
@@ -32,6 +38,7 @@
         ]
     },
     "archer": {
+        "img": archerImg,
         "exp": 0,
         "level": 1,
         "name": "Rehcra",
@@ -48,3 +55,5 @@
         ]
     }
 }
+
+export default hero;
