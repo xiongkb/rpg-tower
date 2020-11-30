@@ -1,6 +1,6 @@
 import warriorImg from "../../Assets/img/heroes/warrior.png";
-import mageImg from "../../Assets/img/heroes/warrior.png";
-import archerImg from "../../Assets/img/heroes/warrior.png";
+import mageImg from "../../Assets/img/heroes/mage.png";
+import archerImg from "../../Assets/img/heroes/archer.png";
 
 let heroData = {
     warrior: {
