@@ -35,3 +35,9 @@
     left: -80px;
     top: 40px;
 }
+.hero-name {
+    font-size: 32px;
+    position: relative;
+    bottom: 110px;
+    border-bottom: double #800000 5px;
+}
