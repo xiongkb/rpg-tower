@@ -17,7 +17,7 @@ let heroData = {
         skills: [
             {
                 name: "Heavenly Slash",
-                dmg: 0
+                dmg: 5
             }
         ]
     },
@@ -34,7 +34,7 @@ let heroData = {
         skills: [
             {
                 name: "Arcana Blast",
-                dmg: 0
+                dmg: 8
             }
         ]
     },
@@ -50,8 +50,8 @@ let heroData = {
         },
         skills: [
             {
-                "name": "Dragon Pierce",
-                "dmg": 0
+                name: "Dragon Pierce",
+                dmg: 7
             }
         ]
     }
