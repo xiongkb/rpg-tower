@@ -31,4 +31,7 @@
 }
 .hero-pic {
     float: left;
+    position: relative;
+    left: -80px;
+    top: 40px;
 }
