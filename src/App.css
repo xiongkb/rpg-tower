@@ -19,3 +19,6 @@
 .title {
   margin: unset;
 }
+.display-heroes {
+  display: flexbox;
+}
