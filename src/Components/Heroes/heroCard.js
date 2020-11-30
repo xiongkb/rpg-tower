@@ -1,11 +1,11 @@
 import React from "react";
-
+import "./heroCard.css"
 
 const HeroCard = (props) => {
 
     
     return (
-        <div>
+        <div className="hero-card">
             <div className="level">{props.hero.level}</div>
             <img alt={props.hero.alt} src={props.hero.img}></img>
             <div className="hero-name">{props.hero.name}</div>

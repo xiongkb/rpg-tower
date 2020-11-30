@@ -1,0 +1,14 @@
+.hero-card {
+    border: 3px #000 solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+}
+.level {
+    float: left;
+    font-size: 52px;
+}
