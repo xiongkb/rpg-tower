@@ -40,4 +40,18 @@
     position: relative;
     bottom: 110px;
     border-bottom: double #800000 5px;
+    clear: right;
+}
+.stat-placement {
+    float: left;
+    position: relative;
+    top: -100px;
+    left: 90px;
+    text-align: left;
+    margin-right: 50px;
+
+}
+.stat-label {
+    font-size: 12px;
+    margin-right: 10px;
 }
