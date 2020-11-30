@@ -6,8 +6,8 @@ const HeroCard = (props) => {
     
     return (
         <div className="hero-card">
-            <div className="level">{props.hero.level}</div>
-            <img alt={props.hero.alt} src={props.hero.img}></img>
+            <div className="level"><span className="lvl-span">lvl</span>{props.hero.level}</div>
+            <img className="hero-pic" alt={props.hero.alt} src={props.hero.img}></img>
             <div className="hero-name">{props.hero.name}</div>
             <div className="hero-health">{props.hero.stats.hp}</div>
             <div className="hero-exp">{props.hero.exp}</div>
