@@ -20,5 +20,8 @@
   margin: unset;
 }
 .display-heroes {
-  display: flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  position: absolute;
+  bottom: 0;
 }
