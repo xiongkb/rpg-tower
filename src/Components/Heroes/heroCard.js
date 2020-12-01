@@ -1,7 +1,7 @@
 import React from "react";
 import "./heroCard.css"
 
-const HeroCard = (props) => {
+const heroCard = (props) => {
 
     
     return (
@@ -27,4 +27,4 @@ const HeroCard = (props) => {
     )
 }
 
-export default HeroCard;
+export default heroCard;
