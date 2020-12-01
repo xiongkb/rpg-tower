@@ -26,7 +26,8 @@
     font-size: 18px;
 }
 .hero-pic {
-    justify-self: flex-end;
+    width: 75px;
+    height: auto;
 }
 .hero-name {
     font-size: 32px;
