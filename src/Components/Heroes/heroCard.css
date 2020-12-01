@@ -1,6 +1,5 @@
 .hero-card {
     display: flex;
-    /* flex-flow: wrap; */
     border: 10px #800000 groove;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -9,6 +8,7 @@
     padding: 5px;
     background: #a16a46;
     margin: 0 10px 50px 30px;
+    background-image: linear-gradient( #9e6019, #5a3217);
 }
 .level {
     font-family: 'Galindo', cursive;
