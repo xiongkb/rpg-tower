@@ -12,8 +12,25 @@ function App() {
 
 
   // monster enemies
-  const [currentEnemies, setCurrentEnemies] = useState(["bat", "carrotKing"]);
+  const [currentEnemies, setCurrentEnemies] = useState([]);
+  let monsterArr = Object.keys(monsterData);
+  
 
+  useEffect(() => {
+    let ranNum = Math.floor(Math.random() * 2);
+    let arr = [];
+    if (ranNum === 0 && arr.length === 0) {
+      ranNum = Math.floor(Math.random() * 1);
+    } else if ( ranNum === 1) {
+      arr.push("bat")
+    }
+    setCurrentEnemies(arr);
+    console.log(monsterArr[ranNum]);
+    console.log(ranNum);
+  }, [])
+
+  console.log(monsterArr);
+  
 
   return (
     <div className="App">
