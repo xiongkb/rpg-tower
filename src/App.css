@@ -25,3 +25,12 @@
   position: absolute;
   bottom: 0;
 }
+.display-monsters {
+  width: 800px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}

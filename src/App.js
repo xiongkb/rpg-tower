@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="title">RPG Tower</h1>
-      <div>
+      <div className="display-monsters">
         {currentEnemies.map( monster => <MonsterCard monster={monsterData[monster]}/>)}
       </div>
       <div className="display-heroes">

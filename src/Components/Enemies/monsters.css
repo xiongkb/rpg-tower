@@ -1,0 +1,8 @@
+.monster-card {
+    display: flex;
+    flex-direction: column;
+}
+.hp {
+    font-size: 14px;
+    margin-right: 10px;
+}
