@@ -7,23 +7,44 @@ import monsterData from "./Components/Enemies/mobData";
 
 function App() {
   // playable characters
-  const [currentParty, setCurrentParty] = useState(["warrior"]);
+  const [currentParty, setCurrentParty] = useState([]);
   // monster enemies
   const [currentEnemies, setCurrentEnemies] = useState([]);
   let monsterArr = Object.keys(monsterData);
+  let heroArr = Object.keys(heroData);
 
+
+  let chosenHeroArr = [];
+  let heroIndex = []
 
   useEffect(() => {
     let mPartySize = Math.floor(Math.random() * 6);
-    let arr = [];
-
+    let hPartySize = 0;
+    let chosenMonArr = [];
+    // selecting monsters party
     for (let i=0; i < mPartySize; i++) {
       let ranMonsterIndex = Math.floor(Math.random() * 8);
-      arr.push(monsterArr[ranMonsterIndex])
-      console.log("monsterIndex: " + ranMonsterIndex);
+      chosenMonArr.push(monsterArr[ranMonsterIndex])
+      // console.log("monsterIndex: " + ranMonsterIndex);
     }
-    setCurrentEnemies(arr);
-    console.log("array of chosen mobs: " + arr);
+    setCurrentEnemies(chosenMonArr);
+
+    // a hero can join is monster party is 0
+    if (mPartySize === 0 && hPartySize < 3) {
+      let ranHeroIndex = Math.floor(Math.random() * 3);
+      console.log("hero index: " + heroIndex);
+
+      if (!heroIndex.includes(ranHeroIndex)) {
+        chosenHeroArr.push(heroArr[ranHeroIndex]);
+        console.log("random hero: " + ranHeroIndex);
+        
+      };
+      setCurrentParty(chosenHeroArr);
+    };
+    
+    console.log("chosen hero: " + chosenHeroArr);
+
+    // console.log("array of chosen mobs: " + chosenMonArr);
     console.log("enemy size: " + mPartySize);
     
   }, [])
