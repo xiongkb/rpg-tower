@@ -6,30 +6,28 @@ import MonsterCard from "./Components/Enemies/monsterCard";
 import monsterData from "./Components/Enemies/mobData";
 
 function App() {
-
   // playable characters
   const [currentParty, setCurrentParty] = useState(["warrior"]);
-
-
   // monster enemies
   const [currentEnemies, setCurrentEnemies] = useState([]);
   let monsterArr = Object.keys(monsterData);
-  
+
 
   useEffect(() => {
-    let ranNum = Math.floor(Math.random() * 2);
+    let mPartySize = Math.floor(Math.random() * 6);
     let arr = [];
-    if (ranNum === 0 && arr.length === 0) {
-      ranNum = Math.floor(Math.random() * 1);
-    } else if ( ranNum === 1) {
-      arr.push("bat")
+
+    for (let i=0; i < mPartySize; i++) {
+      let ranMonsterIndex = Math.floor(Math.random() * 8);
+      arr.push(monsterArr[ranMonsterIndex])
+      console.log("monsterIndex: " + ranMonsterIndex);
     }
     setCurrentEnemies(arr);
-    console.log(monsterArr[ranNum]);
-    console.log(ranNum);
+    console.log("array of chosen mobs: " + arr);
+    console.log("enemy size: " + mPartySize);
+    
   }, [])
 
-  console.log(monsterArr);
   
 
   return (
