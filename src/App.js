@@ -65,7 +65,7 @@ function App() {
 
   return (
     <div className="App">
-      {displayIntro ? <Intro onClick={false}/> : 
+      {displayIntro ? <Intro onClick={() => setDisplayIntro(false)}/> : 
         <div>
           <h1 className="title">RPG Tower</h1>
           <div>Current Floor: {currentFloor}</div>

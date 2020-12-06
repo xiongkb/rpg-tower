@@ -1,9 +1,9 @@
 import React from "react";
 import "./intro.css"
 
-const intro = () => {
+const intro = props => {
     return (
-        <div>
+        <div onClick={() => props.onClick()}>
             <h4>Welcome to RPG Tower</h4>
             <p>
                 This will show you a quick tutorial on how to play.
