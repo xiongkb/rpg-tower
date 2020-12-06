@@ -3,11 +3,12 @@ import "./intro.css"
 
 const intro = props => {
     return (
-        <div onClick={() => props.onClick()}>
+        <div>
             <h4>Welcome to RPG Tower</h4>
             <p>
                 This will show you a quick tutorial on how to play.
             </p>
+            <div onClick={() => props.onClick()}>Start</div>
         </div>
     )
 }
