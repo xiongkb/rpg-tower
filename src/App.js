@@ -65,9 +65,9 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className="title">RPG Tower</h1>
       {displayIntro ? <Intro onClick={() => setDisplayIntro(false)}/> : 
         <div>
-          <h1 className="title">RPG Tower</h1>
           <div>Current Floor: {currentFloor}</div>
           <div className="display-monsters">
             {currentEnemies.map( monster => <MonsterCard monster={monsterData[monster]}/>)}

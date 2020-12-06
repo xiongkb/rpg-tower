@@ -1,0 +1,9 @@
+.intro-scene {
+    font-size: 18px;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    border: #800 groove 10px;
+    background-image: linear-gradient( #9e6019, #5a3217);
+    padding: 10px;
+}
