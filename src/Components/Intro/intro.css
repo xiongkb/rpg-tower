@@ -7,3 +7,15 @@
     background-image: linear-gradient( #9e6019, #5a3217);
     padding: 10px;
 }
+.start-btn {
+    border: groove #800 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+    transition: .5s;
+}
+.start-btn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
