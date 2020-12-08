@@ -12,7 +12,7 @@ const intro = props => {
                 the tower, but rumours says there lies a treasure so powerful, it can change the world.
             </p>
             <p>
-                Are you ready to challenge yourself? Be WARNED, once you enter, you life is in your hand. Monsters of 
+                Are you ready to challenge yourself? Be WARNED, once you enter, your life is in your hand. Monsters of 
                 varying numbers will come at you with their full strength. If you get knocked out, you will be tossed 
                 out of the tower, stripping everything on you. Do you think you can make it to the top?
             </p>

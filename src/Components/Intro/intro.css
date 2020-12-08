@@ -10,8 +10,7 @@
 .start-btn {
     border: groove #800 5px;
     width: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 40px auto 20px auto;
     font-size: 36px;
     transition: .5s;
 }
