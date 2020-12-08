@@ -1,7 +1,14 @@
 .menu-box {
-    width: 400px;
+    width: 300px;
     border: groove #800 10px;
+    background: linear-gradient( #9e6019, #5a3217);
 }
-.menu-item:not(:last-child) {
-    border-bottom:  groove #800 10px;
+.menu-item:hover {
+    transition: .5s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.hr-border {
+    border: 0;
+    border-top: groove #800 10px;
 }
