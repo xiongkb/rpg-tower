@@ -7,3 +7,8 @@
     font-size: 14px;
     margin-right: 10px;
 }
+.monster-card:hover {
+    transition: .2s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
