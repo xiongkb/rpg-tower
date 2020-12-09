@@ -6,7 +6,7 @@
     right: 10px;
 }
 .menu-item {
-    text-align: center;
+    padding: 10px;
 }
 .menu-item:hover {
     transition: .2s;
