@@ -2,9 +2,14 @@
     width: 300px;
     border: groove #800 10px;
     background: linear-gradient( #9e6019, #5a3217);
+    position: absolute;
+    right: 10px;
+}
+.menu-item {
+    text-align: center;
 }
 .menu-item:hover {
-    transition: .5s;
+    transition: .2s;
     transform: scale(1.2);
     cursor: pointer;
 }

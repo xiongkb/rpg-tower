@@ -77,7 +77,7 @@ function App() {
           <div className="display-heroes">
             {currentParty.map( hero => <HeroCard hero={heroData[hero]}/>)}
           </div>
-          <Menu />
+          <Menu/>
         </div>
       }
     </div>
