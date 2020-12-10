@@ -7,7 +7,7 @@ import MonsterCard from "./Components/Enemies/monsterCard";
 import monsterData from "./Components/Enemies/mobData";
 import Intro from "./Components/Intro/intro"
 import Menu from "./Components/Menu/menu"
-
+import Textbox from "./Components/TextBox/textbox"
 
 function App() {
   // introduction to game
@@ -70,6 +70,7 @@ function App() {
       <h1 className="title">RPG Tower</h1>
       {displayIntro ? <Intro onClick={() => setDisplayIntro(false)}/> : 
         <div>
+          <Textbox />
           <div>Current Floor: {currentFloor}</div>
           <div className="display-monsters">
             {currentEnemies.map( monster => <MonsterCard monster={monsterData[monster]}/>)}
@@ -77,7 +78,7 @@ function App() {
           <div className="display-heroes">
             {currentParty.map( hero => <HeroCard hero={heroData[hero]}/>)}
           </div>
-          <Menu/>
+          <Menu />
         </div>
       }
     </div>
