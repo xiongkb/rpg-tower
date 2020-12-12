@@ -4,7 +4,7 @@ import "./textbox.css";
 const Textbox = () => {
     return (
         <div>
-            <h4>This is a message</h4>
+            <h4>You are </h4>
         </div>
     )
 }
